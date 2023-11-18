@@ -46,13 +46,13 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+      - name: Dump GitHub context
+        run: echo ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Dump GitHub context
-        run: echo ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
