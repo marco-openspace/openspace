@@ -59,10 +59,8 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Install dependencies
         run: npm ci
-      - name: Build with Next.js
-        run: npx --no-install next build
-      - name: Static HTML export with Next.js
-        run: npx --no-install next export
+      - name: Build with Next.js (Static HTML export is included)
+        run: npx --no-install next build && touch ./out/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
