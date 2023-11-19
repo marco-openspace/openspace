@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  @apply text-blue-300;
+}
+
+a:hover {
+  /* @apply border-b-2 border-blue-300; */
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+  color: slate-300;
+}
+
+body {
+  background-color: black;
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
