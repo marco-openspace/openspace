@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import Head from "next/head";
+const config = require("../next.config");
 
 const Meta = () => {
   return (
@@ -7,38 +7,47 @@ const Meta = () => {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicon/apple-touch-icon.png"
+        href={`${config.basePath}/favicon/apple-touch-icon.png`}
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon/favicon-32x32.png"
+        href={`${config.basePath}/favicon/favicon-32x32.png`}
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon/favicon-16x16.png"
+        href={`${config.basePath}/favicon/favicon-16x16.png`}
       />
-      <link rel="manifest" href="/favicon/site.webmanifest" />
+      <link
+        rel="manifest"
+        href={`${config.basePath}/favicon/site.webmanifest`}
+      />
       <link
         rel="mask-icon"
-        href="/favicon/safari-pinned-tab.svg"
+        href={`${config.basePath}/favicon/safari-pinned-tab.svg`}
         color="#000000"
       />
-      <link rel="shortcut icon" href="/favicon/favicon.ico" />
+      <link
+        rel="shortcut icon"
+        href={`${config.basePath}/favicon/favicon.ico`}
+      />
       <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+      <meta
+        name="msapplication-config"
+        content={`${config.basePath}/favicon/browserconfig.xml`}
+      />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <meta name="description" content={`Openspace`} />
       <meta
-        name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        property="og:image"
+        content={`${config.basePath}/assets/images/Openspace-Logo.svg`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;
