@@ -21,8 +21,10 @@ export default function Index() {
           <OpenspaceMain />
           <OpenspaceHome />
         </Container>
-        <footer className="border-t border-slate-400 text-slate-400 py-4 text-center text-sm">
-          © Copyright {new Date().getFullYear()} {"Openspace APS"}.
+        <footer className="w-full flex justify-center">
+          <div className="border-t border-slate-400 text-slate-400 py-4 text-center text-sm w-[330px] md:w-[500px]">
+            © Copyright {new Date().getFullYear()} {"Openspace APS"}.
+          </div>
         </footer>
       </Layout>
     </>

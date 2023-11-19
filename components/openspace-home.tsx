@@ -10,7 +10,8 @@ const OpenspaceHome = () => {
         Openspace è un nuovo spazio fisico che si propone come luogo di
         aggregazione per appassionati di tecnologia e non a Milano.{" "}
       </p>
-      <p>
+
+      <p className="pt-4">
         Per utilizzare lo spazio è necessaria l&apos;iscrizione a
         &quot;Openspace Associazione di Promozione Sociale&quot; ed attenersi
         alle regole descritte nel regolamento dell&apos;associazione,
