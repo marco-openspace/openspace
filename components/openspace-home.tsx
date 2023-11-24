@@ -13,9 +13,8 @@ const OpenspaceHome = () => {
 
       <p className="pt-4">
         Per utilizzare lo spazio è necessaria l&apos;iscrizione a
-        &quot;Openspace Associazione di Promozione Sociale&quot; ed attenersi
-        alle regole descritte nel regolamento dell&apos;associazione,
-        disponibile in loco.
+        &quot;Openspace Associazione&quot; ed attenersi alle regole descritte
+        nel regolamento dell&apos;associazione, disponibile in loco.
       </p>
       <p>Vieni a trovarci in Via Camillo Golgi 60, 20133 Milano!</p>
       <div className="md:flex md:py-4 md:justify-center">

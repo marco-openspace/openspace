@@ -23,7 +23,7 @@ export default function Index() {
         </Container>
         <footer className="absolute bottom-10 w-full flex justify-center">
           <div className="border-t border-slate-400 text-slate-400 py-4 text-center text-sm w-[330px] md:w-[500px]">
-            © Copyright {new Date().getFullYear()} {"Openspace APS"}.
+            © Copyright {new Date().getFullYear()} {"Openspace"}.
           </div>
         </footer>
       </Layout>
