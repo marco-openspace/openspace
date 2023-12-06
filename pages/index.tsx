@@ -8,7 +8,7 @@ import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import Post from "../interfaces/post";
 import OpenspaceHome from "../components/openspace-home";
-import OpenspaceMain from "../components/openspace-main";
+import OpenspaceHeader from "../components/openspace-header";
 
 export default function Index() {
   return (
@@ -18,7 +18,6 @@ export default function Index() {
           <title>{`Benvenuti a Openspace!`}</title>
         </Head>
         <Container>
-          <OpenspaceMain />
           <OpenspaceHome />
         </Container>
         <footer className="absolute bottom-10 w-full flex justify-center">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const config = require("../next.config");
 
-const OpenspaceMain = () => {
+const OpenspaceHeader = () => {
   return (
     <div className="flex w-full justify-center px-8 text-center text-slate-300 antialiased">
       <div className="mx-auto max-w-screen-lg">
@@ -22,4 +22,4 @@ const OpenspaceMain = () => {
   );
 };
 
-export default OpenspaceMain;
+export default OpenspaceHeader;
