@@ -6,7 +6,7 @@ const ChiSiamo = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center px-8 text-start text-slate-300 antialiased">
       <div className="max-w-2xl flex flex-col space-y-3 text-justify">
-        <h2 className="text-4xl font-bold text-center">Cosa facciamo</h2>
+        <h2 className="text-4xl font-bold text-center py-4">Cosa facciamo</h2>
         <h4>Orari di Apertura </h4>
         <p>
           {" "}
@@ -53,7 +53,7 @@ const ChiSiamo = () => {
         </p>
       </div>
       <div className="max-w-2xl flex flex-col space-y-3 pt-8 text-justify">
-        <h2 className="text-4xl font-bold text-center">
+        <h2 className="text-4xl font-bold text-center py-4">
           I nostri valori e obiettivi
         </h2>
         <p>
