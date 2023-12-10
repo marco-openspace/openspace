@@ -5,7 +5,7 @@ const config = require("../next.config");
 const OpenspaceHome = () => {
   return (
     <div className="flex flex-col w-full justify-center px-8 text-center text-slate-300 antialiased">
-      <h2 className="pb-4 text-2xl font-bold">Benvenuti a Openspace!</h2>
+      <h2 className="pb-4 text-4xl font-bold">Benvenuti a Openspace!</h2>
       <section className="flex justify-center">
         <div className="max-w-4xl">
           <p>
@@ -61,7 +61,7 @@ const OpenspaceHome = () => {
         </div>
         <div className="flex w-full items-center flex-col space-y-0 md:space-y-0 md:max-w-[280px] md:flex-row justify-center pt-2 space-x-2 px-4">
           <Link
-            href="https://form.jotform.com/carlonigiacomo/domanda-di-ammissione"
+            href="https://forms.gle/asJs8yhPZ8E92veT8"
             className="w-full flex items-center rounded-lg border-4 border-slate-400 py-2 hover:bg-slate-600 hover:bg-opacity-40"
           >
             {" "}

@@ -18,7 +18,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen relative">
         <main>{children}</main>
       </div>
-      <footer className="absolute bottom-10 w-full flex justify-center">
+      <footer className="w-full flex justify-center">
         <div className="border-t border-slate-400 text-slate-400 py-4 text-center text-sm w-[330px] md:w-[500px]">
           © Copyright {new Date().getFullYear()} {"Openspace"}.
         </div>
