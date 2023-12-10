@@ -6,17 +6,41 @@ const OpenspaceHome = () => {
   return (
     <div className="flex flex-col w-full justify-center px-8 text-center text-slate-300 antialiased">
       <h2 className="pb-4 text-2xl font-bold">Benvenuti a Openspace!</h2>
-      <p>
-        Openspace è un nuovo spazio fisico che si propone come luogo di
-        aggregazione per appassionati di tecnologia e non a Milano.{" "}
-      </p>
+      <section className="flex justify-center">
+        <div className="max-w-4xl">
+          <p>
+            Openspace è un laboratorio collaborativo guidato dalla comunità, in
+            cui persone curiose di tutti i livelli di competenza possono
+            esplorare, imparare e creare utilizzando strumenti e conoscenze
+            condivise.
+          </p>
 
-      <p className="pt-4">
-        Per utilizzare lo spazio è necessaria l&apos;iscrizione a
-        &quot;Openspace Associazione&quot; ed attenersi alle regole descritte
-        nel regolamento dell&apos;associazione, disponibile in loco.
-      </p>
-      <p>Vieni a trovarci in Via Camillo Golgi 60, 20133 Milano!</p>
+          <p className="pt-4">
+            Openspace è attualmente accessibile "anteprima" in Via Golgi, 60.
+            Stiamo lavorando duramente per preparare lo spazio per le attività
+            regolari al più presto! Iscriviti{" "}
+            <Link
+              href="https://forms.gle/asJs8yhPZ8E92veT8"
+              className="underline"
+            >
+              qui
+            </Link>{" "}
+            per diventare un membro e ricevere notizie sul nostro progresso e i
+            prossimi eventi.
+          </p>
+          <p className="pt-4">
+            {" "}
+            Contiamo sulla nostra comunità per crescere e sostenerci, quindi ti
+            preghiamo di considerare la possibilità di fare una donazione (non
+            solo denaro, ma anche tempo, materiali o strumenti) per aiutare
+            Openspace a diventare lo spazio comunitario florido che immaginiamo!{" "}
+            <Link href={`${config.basePath}/contattaci`} className="underline">
+              Contattaci{" "}
+            </Link>
+            per saperne di più.
+          </p>
+        </div>
+      </section>
       <div className="md:flex md:py-4 md:justify-center">
         <div className="flex w-full items-center flex-col space-y-0 md:space-y-0 md:max-w-[280px] md:flex-row justify-center pt-4 pb-2 space-x-4 px-4">
           <Link

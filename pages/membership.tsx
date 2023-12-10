@@ -1,17 +1,17 @@
 import Container from "../components/container";
 import Layout from "../components/layout";
 import Head from "next/head";
-import ChiSiamo from "../components/chi-siamo";
+import Membership from "../components/membership";
 
-export default function ChiSiamoPage() {
+export default function MembershipPage() {
   return (
     <>
       <Layout>
         <Head>
-          <title>{`Openspace - Chi Siamo`}</title>
+          <title>{`Openspace - Membership`}</title>
         </Head>
         <Container>
-          <ChiSiamo />
+          <Membership />
         </Container>
       </Layout>
     </>
