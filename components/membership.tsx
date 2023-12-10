@@ -7,7 +7,6 @@ const Membership = () => {
   if (global?.window && window.innerHeight) {
     isMobile = window.innerWidth < 768;
   }
-  console.log(isMobile);
   const borderStyles = "border-solid border-white border-2 p-3";
   if (isMobile) {
     return (
@@ -74,6 +73,7 @@ const Membership = () => {
               <tr className="text-xl md:text-3xl font-bold grid grid-cols-1">
                 <td className={borderStyles}>Fondatore</td>
               </tr>
+
               <tr className="grid grid-cols-1 items-center">
                 <td
                   className={`${borderStyles} h-full border-t-0 border-b-0 col-span-1`}
