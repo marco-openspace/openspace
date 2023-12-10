@@ -9,7 +9,7 @@ const Membership = () => {
       <h2 className="text-4xl font-bold">Membership</h2>
 
       <div className="flex flex-col justify-center items-center">
-        <p className="max-w-4xl">
+        <p className="max-w-4xl pb-6">
           Chiunque è il benvenuto a diventare membro e contribuire alla
           comunità. Ci sono tre livelli di adesione: Supporter, Core e Founder.
         </p>

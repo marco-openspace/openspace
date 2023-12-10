@@ -13,14 +13,14 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <OpenspaceHeader />
-      <OpenspaceNav />
-      <div className="min-h-screen relative">
+      <div className="relative min-h-[calc(100vh-150px)]">
+        <OpenspaceHeader />
+        <OpenspaceNav />
         <main>{children}</main>
       </div>
-      <footer className="w-full flex justify-center">
+      <footer className="w-full flex justify-center pt-10">
         <div className="border-t border-slate-400 text-slate-400 py-4 text-center text-sm w-[330px] md:w-[500px]">
-          © Copyright {new Date().getFullYear()} {"Openspace"}.
+          © Copyright {new Date().getFullYear()} {"Openspace"}
         </div>
       </footer>
     </>
