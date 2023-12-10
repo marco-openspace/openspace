@@ -10,25 +10,25 @@ const OpenspaceNav = () => {
         <div className="flex items-center justify-center">
           <div className="relative flex w-full max-w-[700px] rounded-lg border-2 border-slate-400">
             <Link
-              href={`${config.basePath}/`}
+              href={`/`}
               className="w-40 flex items-center py-2 hover:bg-slate-600 hover:bg-opacity-40"
             >
               <p className={linkStyle}>Home</p>
             </Link>
             <Link
-              href={`${config.basePath}/chi-siamo`}
+              href={`/chi-siamo`}
               className="w-40 flex items-center py-2 hover:bg-slate-600 hover:bg-opacity-40"
             >
               <p className={linkStyle}>Chi Siamo</p>
             </Link>
             <Link
-              href={`${config.basePath}/membership`}
+              href={`/membership`}
               className="w-40 flex items-center py-2 hover:bg-slate-600 hover:bg-opacity-40"
             >
               <p className={linkStyle}>Membership</p>
             </Link>
             <Link
-              href={`${config.basePath}/contattaci`}
+              href={`/contattaci`}
               className="w-40 flex items-center py-2 hover:bg-slate-600 hover:bg-opacity-40"
             >
               <p className={linkStyle}>Contattaci</p>
